@@ -8,15 +8,15 @@
         <title>Home</title>
 
         <!--  CSS -->
-        <link rel="stylesheet" href="../static/css/bootstrap.css">
+        <link rel="stylesheet" href="./css/bootstrap.css">
         <!-- <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.css')}}"> -->
-        <link href="../static/css/style.css" rel="stylesheet">
+        <link href="./css/style.css" rel="stylesheet">
         <!-- <link href="{{ url_for('static', filename = 'css/style.css') }}" rel="stylesheet"> -->
-        <link rel="stylesheet" href="../static/css/ant-style.css">
+        <link rel="stylesheet" href="./css/ant-style.css">
         <!-- <link rel="stylesheet" href="{{url_for('static', filename='css/ant-style.css')}}"> -->
 
         <!-- JS -->
-        <script src="../static/js/jquery-3.5.1.js"></script>
+        <script src="./js/jquery-3.5.1.js"></script>
         <!-- <script src="{{ url_for('static', filename = 'js/jquery-3.5.1.js') }}"></script> -->
 
         <!-- 以上对css及js文件的引用均为本地引用，而注释掉的部分为网页相对寻址引用，用于服务器中 -->
@@ -107,7 +107,7 @@
             }
           </script>
         <div class="top" style="white-space: nowarp;">
-          <button type="button" id="start" style="background: url('../static/pictures/start.png'); background-size: cover; background-repeat: no-repeat; height: 250px; width: 250px; position: absolute; right: 20vw; bottom: 8vw; border: none;"></button>  
+          <button type="button" id="start" style="background: url('./pictures/start.png'); background-size: cover; background-repeat: no-repeat; height: 250px; width: 250px; position: absolute; right: 20vw; bottom: 8vw; border: none;"></button>  
         </div>
         <script>
           var button = document.getElementById("start");
@@ -118,49 +118,49 @@
         <div class="introduction">
             <div class="container">
                 <div class="intro-box">
-                    <img src="../static/pictures/uniprot.png">
+                    <img src="./pictures/uniprot.png">
                     <div class="intro">
                         <h4>Uniport(Universal Protein Resource)</h4>
                         <div>Uniprot is the best known protein sequence database with rich protein sequence information and annotation information. You can search by entering the name of the protein you are interested in or the Uniprot ID to get the sequence information of the protein.</div>
                     </div>
                 </div>
                 <div class="intro-box" style="flex-direction: row-reverse;">
-                    <img src="../static/pictures/home-pic-1.png">
+                    <img src="./pictures/home-pic-1.png">
                     <div class="intro">
                         <h4>Jalview</h4>
                         <div>Jalview is a program for editing, visualizing and analyzing multiple sequence comparisons. Sequences are analyzed using phylogenetic trees and principal component analysis (PCA) plots. You can import a FASTA file to see the degree of similarity of each locus, and visualize the degree of similarity and scoring of each locus with intuitive statistics to visualize the evolutionary homology between sequences and which loci are more conserved.</div>
                     </div>
                 </div>
                 <div class="intro-box">
-                    <img src="../static/pictures/home-pic2-1.gif">
+                    <img src="./pictures/home-pic2-1.gif">
                     <div class="intro">
                         <h4>EVmutation</h4>
                         <div>EVmutation is a unsupervised learningmodel focus on the optimization of protein sequence. For each amino-acid in each site, the model could calculates the energy of the sequence. Thus we can find sites and amino-acid that supports mutation.</div>
                     </div>
                 </div>
                 <div class="intro-box" style="flex-direction: row-reverse;">
-                    <img src="../static/pictures/PSSM.png" style="height: 200px;">
+                    <img src="./pictures/PSSM.png" style="height: 200px;">
                     <div class="intro" style="height: 600px;">
                         <h4>PSSM</h4>
                         <div>PSSM is an analytical tool for protein mutation prediction that scores the specificity of a protein's position and then presents it in the form of a matrix to show the evolutionary conservation of the protein sequence. For an element Pij in PSSM, its value indicates the probability that the amino acid in the ith position of the sequence will mutate to the jth amino acid during the evolutionary process. For an element Pij in the PSSM, its value indicates the probability that the amino acid at position i of the sequence will be mutated to the jth amino acid during the evolutionary process, and if the value is positive, the higher the probability; vice versa, the lower the probability.</div>
                     </div>
                 </div>
                 <div class="intro-box">
-                    <img src="../static/pictures/home-pic3.png">
+                    <img src="./pictures/home-pic3.png">
                     <div class="intro">
                         <h4>Swiss-Model</h4>
                         <div>Swiss-Model is a fully automated protein structure homology-modelling server. In structural biology, there is a fundamental principle: the higher the similarity in amino acid sequences of proteins, the more likely their structures will be similar. Based on this, Swiss-Model can predict the structure of proteins whose sequences are known by using proteins that have known sequences and known structures as references.</div>
                     </div>
                 </div>
                 <div class="intro-box" style="flex-direction: row-reverse;">
-                    <img src="../static/pictures/home-pic4-2.gif">
+                    <img src="./pictures/home-pic4-2.gif">
                     <div class="intro">
                         <h4>Codon Optimization</h4>
                         <div>Codon optimization is the most critical determinant of increasing protein expression. Through this step, we can maximize protein expression from the DNA seqeunce of the original species in the host by converting the DNA sequence. It is based on the frequency of the codon.</div>
                     </div>
                 </div>
                 <div class="intro-box">
-                  <img src="../static/pictures/home-pic5.png">
+                  <img src="./pictures/home-pic5.png">
                   <div class="intro">
                       <h4>Primer3</h4>
                       <div>Primer3 evaluates the degree of match by calculating the complementary sequences between primers and templates and comparing the differences between these sequences. Based on this principle, Primer3 can quickly give you the primers you need for PCR based on the vector you choose, making it easy for you to proceed to the next step of synthesis.</div>
